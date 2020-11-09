@@ -7,7 +7,7 @@ Capable of extracting syntactic features for given nouns of interest and compari
 
 1. Clone repo and `cd` inside
 
-2. Ensure you activated virtual env by: `source ./venv/bin/activate`
+2. Ensure you created `python -m venv venv` and activated virtual env by: `source ./venv/bin/activate`
 
 3. Install requirements: `pip install -r requirements.txt`
 
