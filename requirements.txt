@@ -5,3 +5,4 @@ spacy
 sklearn
 numpy
 pandas
+jsonschema
