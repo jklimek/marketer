@@ -1,5 +1,8 @@
 # Feature extractor - Marketer
 
+Python REST api for real estate properties text descriptions.
+Capable of extracting syntactic features for given nouns of interest and comparing similarities between each real estate description.
+
 ## Installation
 
 1. Clone repo and `cd` inside
@@ -10,7 +13,11 @@
 
 4. Install main package from project root: `pip install -e .`
 
-5. Run `./marketer/api/api.py` 
+5. Run `./marketer/api/api.py` and use 
+    * `/extract` takes json consisting list of texts and nouns groups dict and returnes 
+    * `/compare` takes the same set of data as `/extract` (json consisting list of texts and nouns groups dict) 
+    but returns dict conatining 2 features similarity metrics `features_averaged_cosine_similarities`, `features_averaged_euclidean_similarities`
+    and 1 text similarity metric `text_descriptions_similarities` 
 
 6. Test by simply `pytest` from project root
 
@@ -18,7 +25,7 @@
 Sample curl with all texts and nouns groups:
 
 ```
-curl --location --request POST 'http://localhost:5006/extract' \
+curl --location --request POST 'http://localhost:5000/extract' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "texts": [
