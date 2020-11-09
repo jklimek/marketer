@@ -1,0 +1,36 @@
+{
+  "bathroom": [
+    "bathroom",
+    "bath"
+  ],
+  "bedroom": [
+    "bedroom"
+  ],
+  "living room": [
+    "living room",
+    "reception",
+    "reception room",
+    "receptions room",
+    "reception area",
+    "reception space"
+  ],
+  "property": [
+    "property",
+    "apartment",
+    "maisonette",
+    "house",
+    "accommodation",
+    "home"
+  ],
+  "garden": [
+    "garden",
+    "yard"
+  ],
+  "location": [
+    "location"
+  ],
+  "transport": [
+    "transport",
+    "transport link"
+  ]
+}
