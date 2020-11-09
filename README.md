@@ -22,7 +22,7 @@ Capable of extracting syntactic features for given nouns of interest and compari
 6. Test by simply `pytest` from project root
 
 
-Sample curl with all texts and nouns groups:
+Sample `/extract` curl with all texts and nouns groups:
 
 ```
 curl --location --request POST 'http://localhost:5000/extract' \
