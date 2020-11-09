@@ -5,4 +5,3 @@ spacy
 sklearn
 numpy
 pandas
-pytest-flask-1.1.0
